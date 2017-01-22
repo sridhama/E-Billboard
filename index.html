@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<meta charset=utf-8>
+<link rel=stylesheet href=./css/main.css>
+<title>Student Notification Board</title>
+<script src=scripts/jquery-1.12.0.min.js></script>
+<script src=scripts/jquery.simpleWeather.min.js></script>
+<script src=http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js></script>
+<link rel=stylesheet href=./css/normalize.css>
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel=stylesheet type=text/css>
+<script src=scripts/scripts.js></script>
+<style>table,th,td{border:1px solid #0b78bb;border-collapse:collapse}th,td{padding:5px}</style>
+</head>
+<body>
+<header><center>
+<div class=logo><img src=./assets/logo1.png align=middle height="20px"/></div></center>
+<h1><span id=bmu>Student</span> Notification Point</h1>
+<h3 id=greeting><span id=time></span><span>•</span><span id=date></span></h3>
+</header>
+<main>
+<div class=grid-container>
+<div class=grid-item><h4><strong>Latest</strong> Updates</h4>
+<div class=bmupdates>
+<marquee direction=up height=790 scrollamount=3 behavior=scroll>
+<ul id=updateList>
+<li><h4>Update 1</h4>Et hic aute senserit an possumus ad labore. Ut ab quem tamen duis, qui do labore
+nisi anim te eu tempor coniunctione, eu dolore proident instituendarum. A a amet
+expetendis. Irure nescius nam quis minim, officia fugiat esse laborum quem se
+vidisse quorum est mentitum distinguantur te est aliqua litteris. Nam hic amet
+illum summis, ea ullamco ab excepteur de in admodum an offendit hic aut
+incididunt praesentibus. Iis fugiat illum est mandaremus. Arbitror nam irure
+nostrud.</li>
+<li><h4>Update 2</h4>Et hic aute senserit an possumus ad labore. Ut ab quem tamen duis, qui do labore
+nisi anim te eu tempor coniunctione, eu dolore proident instituendarum. A a amet
+expetendis. Irure nescius nam quis minim, officia fugiat esse laborum quem se
+vidisse quorum est mentitum distinguantur te est aliqua litteris. Nam hic amet
+illum summis, ea ullamco ab excepteur de in admodum an offendit hic aut
+incididunt praesentibus. Iis fugiat illum est mandaremus. Arbitror nam irure
+nostrud.</li>
+<li><h4>Update 3</h4>Et hic aute senserit an possumus ad labore. Ut ab quem tamen duis, qui do labore
+nisi anim te eu tempor coniunctione, eu dolore proident instituendarum. A a amet
+expetendis. Irure nescius nam quis minim, officia fugiat esse laborum quem se
+vidisse quorum est mentitum distinguantur te est aliqua litteris. Nam hic amet
+illum summis, ea ullamco ab excepteur de in admodum an offendit hic aut
+incididunt praesentibus. Iis fugiat illum est mandaremus. Arbitror nam irure
+nostrud.</li>
+<li><h4>Update 4</h4>Et hic aute senserit an possumus ad labore. Ut ab quem tamen duis, qui do labore
+nisi anim te eu tempor coniunctione, eu dolore proident instituendarum. A a amet
+expetendis. Irure nescius nam quis minim, officia fugiat esse laborum quem se
+vidisse quorum est mentitum distinguantur te est aliqua litteris. Nam hic amet
+illum summis, ea ullamco ab excepteur de in admodum an offendit hic aut
+incididunt praesentibus. Iis fugiat illum est mandaremus. Arbitror nam irure
+nostrud.</li>
+<li><h4>Update 5</h4>Et hic aute senserit an possumus ad labore. Ut ab quem tamen duis, qui do labore
+nisi anim te eu tempor coniunctione, eu dolore proident instituendarum. A a amet
+expetendis. Irure nescius nam quis minim, officia fugiat esse laborum quem se
+vidisse quorum est mentitum distinguantur te est aliqua litteris. Nam hic amet
+illum summis, ea ullamco ab excepteur de in admodum an offendit hic aut
+incididunt praesentibus. Iis fugiat illum est mandaremus. Arbitror nam irure
+nostrud.</li>
+</ul></marquee>
+</div>
+</div>
+<div class=grid-item><h4>Current Weather</h4>
+<div id=weather></div>
+</div>
+<div class=grid-item><h4>Latest News</h4>
+<div id=newsDiv>
+<marquee direction=up height=320 scrollamount=3 behavior=scroll>
+<ul id=news></ul>
+</marquee></div>
+</div>
+<div class=grid-item><h4 id=food></h4>
+<div class=menu style=padding-top:.7em>
+<ul id=menu>
+<li>Please Scan Your Face</li>
+</ul>
+</div>
+</div>
+<div class=grid-item><h4>Todays Timetable</h4>
+<div class=menu><ul>
+<center>
+<table id=timetable>
+</table>
+</center>
+</ul></div>
+</div>
+</div>
+</main>
+<script src=./scripts/update.js></script>
+</body>
+</html>
